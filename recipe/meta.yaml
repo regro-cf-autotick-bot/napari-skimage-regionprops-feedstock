@@ -27,6 +27,9 @@ requirements:
     - pandas
     - python >=3.6
     - scikit-image
+    - qtpy
+    - toolz
+    - typing_extensions
 
 test:
   imports:
