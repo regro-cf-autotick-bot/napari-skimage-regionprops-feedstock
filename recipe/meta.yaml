@@ -30,6 +30,7 @@ requirements:
     - qtpy
     - toolz
     - typing_extensions
+    - napari-workflows
 
 test:
   imports:
