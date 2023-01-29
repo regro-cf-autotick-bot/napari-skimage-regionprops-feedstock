@@ -1,5 +1,5 @@
 {% set name = "napari-skimage-regionprops" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-skimage-regionprops-{{ version }}.tar.gz
-  sha256: c05283f11b200db428963d96545984b0124eaa91548ee94c3587cb0474e2f286
+  sha256: 51a42aaef2a24b7668a7f10a00ca4a972757bd36e91fe4db179364dc8e2033c2
 
 build:
   noarch: python
