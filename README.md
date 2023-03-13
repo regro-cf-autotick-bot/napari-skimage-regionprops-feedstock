@@ -1,11 +1,11 @@
-About napari-skimage-regionprops
-================================
+About napari-skimage-regionprops-feedstock
+==========================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-skimage-regionprops-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/haesleinhuepf/napari-skimage-regionprops
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-skimage-regionprops-feedstock/blob/main/LICENSE.txt)
 
 Summary: A regionprops table widget plugin for napari
 

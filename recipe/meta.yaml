@@ -1,5 +1,5 @@
 {% set name = "napari-skimage-regionprops" %}
-{% set version = "0.8.1" %}
+{% set version = "0.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-skimage-regionprops-{{ version }}.tar.gz
-  sha256: 9f9910f36345d849f6e16204453d01d9f6c5e3a5d716b4a8cb61907248de5db6
+  sha256: 3ee4328f84e18e832fba1fec56cccfcb6ead23ffe2afaeb3e8833795bc11e104
 
 build:
   noarch: python
@@ -31,6 +31,7 @@ requirements:
     - toolz
     - typing_extensions
     - napari-workflows
+    - deprecated
 
 test:
   imports:
